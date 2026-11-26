@@ -1,0 +1,55 @@
+Barbearia do Braz — tecnologias:
+- Java 21 (LTS) — linguagem principal
+- PostgreSQL 16 — banco de dados relacional
+- JDBC + HikariCP 6.2.1 — conexão e pool de conexões
+- SLF4J 2.0.17 — logging
+- Terminal/Console — interface com o usuário (sem GUI)
+
+
+
+
+SISTEMA:
+0
+
+
+q
+
+
+
+
+ver o psql:
+# Conectar no banco
+& "$env:USERPROFILE\AppData\Local\Temp\opencode\pgsql\pgsql\bin\psql.exe" -U postgres -d barbearia
+
+\dt
+
+Depois:
+
+SELECT * FROM Cliente;
+SELECT * FROM Barbeiro;
+SELECT * FROM Servico;
+
+
+
+
+pesca:
+Eu inicio o sistema pelo PowerShell, o Java executa a aplicação, configura a conexão com o banco 
+usando HikariCP e JDBC, conecta ao PostgreSQL e, após a conexão bem-sucedida, libera o menu do sistema no terminal.
+
+
+PostgreSQL JDBC Driver (postgresql-42.7.6.jar) — conexão com o banco
+HikariCP (hikaricp-6.2.1.jar) — pool de conexões
+SLF4J API (slf4j-api-2.0.17.jar) + SLF4J Simple (slf4j-simple-2.0.17.jar) — logging
+
+
+As classes DAO (src/dao/) são quem fazem todas as consultas e manipulações no banco:
+Arquivo	Responsabilidade
+AgendamentoDAO.java	CRUD de agendamentos
+AvaliacaoDAO.java	CRUD de avaliações
+BarbeiroDAO.java	CRUD de barbeiros
+ClienteDAO.java	CRUD de clientes
+PagamentoDAO.java	CRUD de pagamentos
+ServicoDAO.java	CRUD de serviços
+RelatorioDAO.java	Consultas de relatórios (JOINs, GROUP BY, etc.)
+Cada DAO tem os métodos inserir(), listar(), buscarPorId(), atualizar(), deletar() — é a camada que executa o SQL direto no PostgreSQL.
+

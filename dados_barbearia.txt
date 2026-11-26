@@ -1,0 +1,66 @@
+=================================================================
+                BARBEARIA DO BRAZ - INFORMACOES
+=================================================================
+
+NOME: BARBEARIA DO BRAZ
+PROPRIETARIO: BRAZ
+FUNCIONAMENTO: Seg a Sab, 08:00 as 18:00
+CONTATO: (86) 99999-0000
+ENDERECO: [Endereco da Barbearia]
+
+=================================================================
+BARBEIROS
+=================================================================
+
+1. MATEUS
+   - Especialidade: Corte Degradê e Barba
+   - Telefone: (86) 99999-1001
+   - Email: mateus@barbeariadobraz.com
+
+2. DEYVID
+   - Especialidade: Corte Clássico e Social
+   - Telefone: (86) 99999-1002
+   - Email: deyvid@barbeariadobraz.com
+
+3. WESLLEY
+   - Especialidade: Design Capilar e Hidratação
+   - Telefone: (86) 99999-1003
+   - Email: weslley@barbeariadobraz.com
+
+=================================================================
+SERVICOS E PRECOS
+=================================================================
+
+1. Corte Simples ................... R$ 30,00 (30 min)
+2. Corte Degradê ................... R$ 45,00 (45 min)
+3. Barba Completa .................. R$ 25,00 (20 min)
+4. Corte + Barba ................... R$ 50,00 (50 min)
+5. Hidratação Capilar .............. R$ 40,00 (40 min)
+6. Corte Infantil .................. R$ 25,00 (25 min)
+7. Corte Social .................... R$ 35,00 (35 min)
+8. Design Capilar .................. R$ 55,00 (60 min)
+9. Barba Desenhada ................. R$ 30,00 (25 min)
+10. Corte + Hidratação ............. R$ 60,00 (60 min)
+11. Sobrancelha .................... R$ 15,00 (15 min)
+12. Combo Completo ................. R$ 70,00 (75 min)
+
+=================================================================
+CLIENTES CADASTRADOS (EXEMPLO)
+=================================================================
+
+1. João Silva - (86) 99999-0001
+2. Maria Oliveira - (86) 99999-0002
+3. Carlos Santos - (86) 99999-0003
+4. Ana Costa - (86) 99999-0004
+5. Pedro Almeida - (86) 99999-0005
+6. Lucas Pereira - (86) 99999-0006
+
+=================================================================
+REGRAS DE AGENDAMENTO
+=================================================================
+
+- Nao pode haver 2 ou mais agendamentos no mesmo horario
+  para o mesmo barbeiro.
+- Horarios de atendimento: 08:00 as 18:00
+- Intervalo minimo entre agendamentos: 30 minutos
+- Cancelamentos devem ser feitos com antecedencia.
